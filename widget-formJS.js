@@ -1,4 +1,9 @@
 // init-dental-chat-widget.js
+if (window.location.pathname !== "/contact") {
+  console.log("Chatbot script disabled: not on contact page.");
+  return;
+}
+
 import { createChat } from "https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js";
 
 const sessionId = crypto.randomUUID();
