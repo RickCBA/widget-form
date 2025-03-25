@@ -84,7 +84,6 @@
   }
   /* Chat body styling */
   #my-chat-widget .chat-body {
-    background: #ffffff;
     padding: 0;
     overflow-y: auto;
     scrollbar-width: none;
