@@ -57,24 +57,6 @@
     padding-bottom: 0rem;
   }
   
-  #my-chat-widget .chat-heading::after {
-  content: "";
-  position: absolute;
-  right: 48px;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  background: url(https://github.com/RickCBA/widget-centered/blob/main/Ellen.jpeg?raw=true) no-repeat center center;
-  background-size: cover;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-}
-
-@media only screen and (max-width: 768px) {
-#my-chat-widget .chat-header::after {
-  display: none;
-}
-}
-  
   /* Chat footer styling */
   #my-chat-widget .chat-footer {
     background: rgba(255, 255, 255, 0.9);
