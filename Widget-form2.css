@@ -28,6 +28,7 @@
     --popover_text_colour: #ffffff;
     --chat--message-line-height: 1.5;
     --chat--transition-duration: 0.15s;
+    --chat--body--backgound: transparent;
     
     --chat--toggle--width: 120px;
     --chat--toggle--height: 64px;
