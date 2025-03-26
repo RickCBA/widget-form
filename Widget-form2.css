@@ -70,6 +70,7 @@
     overflow-y: auto;
     scrollbar-width: none;
     -ms-overflow-style: none;
+    background: transparent;
   }
   #my-chat-widget .chat-body::-webkit-scrollbar {
     display: none;
