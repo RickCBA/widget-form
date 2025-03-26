@@ -57,6 +57,13 @@
     padding: 0.4rem;
     padding-bottom: 0rem;
   }
+
+  .chat-layout .chat-header h1 {
+    font-size: 2.5rem !important; /* Ensures it overrides existing styles */
+    font-weight: 500;
+    font-family: inherit;
+    color: var(--chat--header--color, var(--chat--color-light)); /* Keep existing color settings */
+  }
   
   /* Chat footer styling */
   #my-chat-widget .chat-footer {
