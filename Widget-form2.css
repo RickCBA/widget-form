@@ -131,6 +131,9 @@
     background: var(--button-bg);
     color: var(--button-text);
     border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
     cursor: pointer;
     transition: background var(--chat--transition-duration) ease;
     margin-right: -8px;
