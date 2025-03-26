@@ -118,6 +118,10 @@
   #my-chat-widget .chat-inputs textarea {
     background: transparent;
   }
+.chat-inputs textarea::-webkit-input-placeholder {
+    color: #525252 !important;
+}
+
   /* Send button styling */
   #my-chat-widget .chat-footer button {
     background: var(--button-bg);
