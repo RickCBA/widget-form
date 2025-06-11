@@ -177,3 +177,7 @@
   #my-chat-widget .my-canned-bot-message .canned-messages-grid button:hover {
     background: var(--option-background-hover);
   }
+
+#my-chat-widget .chat-inputs textarea::placeholder {
+    line-height: 22px !important;
+}
